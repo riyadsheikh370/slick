@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.banner {
+    position: relative;
+}
+
+.main {
+    height: 700px;
+}
+
+.main img {
+    height: 600px;
+    width: 550px;
+    margin-left: 33%;
+    margin-top: 5%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-box-shadow: 2px 3px 5px 0px rgba(145, 136, 145, 1);
+    -moz-box-shadow: 2px 3px 5px 0px rgba(145, 136, 145, 1);
+    box-shadow: 2px 3px 5px 0px rgba(145, 136, 145, 1);
+}
+
+.next {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 49px;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    right: 250px;
+    background-color: cadetblue;
+    border: 1px solid beige;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    cursor: pointer;
+    color: white;
+}
+
+.next:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.prev1 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 49px;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 250px;
+    background-color: cadetblue;
+    border: 1px solid beige;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+    color: white;
+}
+
+.prev1:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.banner .slick-dots {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+}
+
+.banner .slick-dots li {
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    background-color: teal;
+    margin: 0 2px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.banner .slick-dots li button {
+    height: 8px;
+    width: 8px;
+    border: none;
+    background-color: rgb(189, 181, 181);
+    color: transparent;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    opacity: 0;
+}
+
+.banner .slick-dots li.slick-active button {
+    opacity: 1;
+}
